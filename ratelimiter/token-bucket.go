@@ -24,7 +24,7 @@ func (limiter *TokenBucketLimiter) SetRate(permitsPerSeconds float64) {
 
 }
 
-func (limiter TokenBucketLimiter) GetRate() float64 {
+func (limiter *TokenBucketLimiter) GetRate() float64 {
 	return float64(time.Second) / limiter.burstInterval
 }
 
