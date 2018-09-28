@@ -1,12 +1,12 @@
 // A smooth rate limiter base in the token bucket algorithm
 
-package ratelimiter
+package rate_limiter
 
 import (
 	"errors"
+	"math"
 	"sync"
 	"time"
-	"math"
 )
 
 type TokenBucketLimiter struct {

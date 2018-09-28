@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/rate-limiter/ratelimiter"
 	"fmt"
+	ratelimiter "github.com/raomuyang/rate-limiter"
 )
 
 func main() {

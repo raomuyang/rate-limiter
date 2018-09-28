@@ -1,8 +1,8 @@
-package ratelimiter
+package rate_limiter
 
 import (
-	"time"
 	"errors"
+	"time"
 )
 
 type RateLimiter interface {
